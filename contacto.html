@@ -6,24 +6,25 @@
     </head>
     <body>
 
-        <form action="">
+        <form method="post" action="">
             <fieldset>
                 <legend>Contacto</legend>
                 
-                <label for="correo">correo electronico:</label>
-                <input id="correo" type="email" name="correo">
+                <label for="correo" class="form-label">correo electronico:</label>
+                <input id="correo" class="form-control" type="email" name="correo">
                 
                 <br>
                 
-                <label for="comentario">comentarios:</label>     
-                <textarea id="comentario" type="textarea" name="comentario"></textarea>
+                <label for="comentario" class="form-label">comentarios:</label>     
+                <textarea class="form-control" id="comentario" type="textarea" name="comentario"></textarea>
                  
                 <br>
                 <br>
-                <select name="Clasificacion" required>
-                    <option value="value1" selected>Contratación</option>
-                    <option value="value2">pregunta</option>
-                    <option value="value3">Otro</option>
+                <label for="categoria" class="form-label">Categoría</label>
+                <select class="form-control" name="categoria">
+                    <option value="contratacion" selected>Contratación</option>
+                    <option value="pregunta">pregunta</option>
+                    <option value="otro">Otro</option>
                 </select>
                 <br>
                 <br>
