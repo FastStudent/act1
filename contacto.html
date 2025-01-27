@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-08">
+        <meta charset="UTF-8">
         <title>Informacion de contacto</title>
     </head>
     <body>
@@ -9,15 +9,15 @@
         <form action="">
             <fieldset>
                 <legend>Contacto</legend>
-                <p>
-                correo electronico:
-                <input id="correo" type="textbox" name="email">
-                </p>
+                
+                <label for="correo">correo electronico:</label>
+                <input id="correo" type="email" name="correo">
+                
                 <br>
-                <p>
-                comentarios:    
-                <input id="comentario" type="textarea" name="comment">
-                </p> 
+                
+                <label for="comentario">comentarios:</label>     
+                <textarea id="comentario" type="textarea" name="comentario"></textarea>
+                 
                 <br>
                 <br>
                 <select name="Clasificacion" required>
