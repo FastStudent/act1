@@ -1,0 +1,29 @@
+p{
+    float: none;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centramos el texto */
+}
+
+h1{
+    float: none;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centramos el texto */
+}
+
+h2{
+    float: none;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centramos el texto */
+}
+
+img{
+
+    display: block; /* Hacemos que la imagen sea un bloque */
+    margin: auto; /* Centramos la imagen */
+}
